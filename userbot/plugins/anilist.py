@@ -2,7 +2,7 @@ import datetime
 import html
 import textwrap
 from urllib.parse import quote_plus
-
+ 
 import aiohttp
 import bs4
 import jikanpy
