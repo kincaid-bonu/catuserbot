@@ -103,22 +103,22 @@ async def bot_start(event):
                 my_mention=my_mention,
             )
         else:
-            start_msg = f"Hey! 👤{mention},\
-                        \nI am {my_mention}'s assistant bot.\
-                        \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+            start_msg = f"H҉҉e҉҉y҉҉! 👤{mention},\n
+                        \nI'm✅- CLÆ͜͡Ｙ's 🇦‌🇸‌🇸‌🇮‌🇸‌🇹‌🇦‌🇳‌🇹‌.\
+                        \n🅈🄾🅄 🄲🄰🄽 🄼🄴🅂🅂🄰🄶🄴\n~🄼🅈~🄼🄰🅂🅃🄴🅁🧑‍🔬 = <b>@Cyber_EpicBot.🤖</b>\
+                       "
         buttons = [
             (
-                Button.url("Repo", "https://github.com/sandy1709/catuserbot"),
+                Button.url("M҉y҉ ҉C҉H҉A҉N҉N҉E҉L҉😉", "https://t.me/PrimeFlixMedia_All"),
                 Button.url(
-                    "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
+                    "M҉y҉ ҉G҉R҉O҉U҉P҉🚶",
+                    "https://t.me/PrimeFlix_Chats",
                 ),
             )
         ]
     else:
-        start_msg = "Hey Master!\
-            \nHow can i help you ?"
+        start_msg = "<b>H҉҉e҉҉y҉҉ {my_mention}!\
+            \n🄷🄾🅆 🄲🄰🄽 🄸 🄷🄴🄻🄿 🅈🄰?..🤔</b>"
         buttons = None
     try:
         await event.client.send_message(
@@ -132,7 +132,7 @@ async def bot_start(event):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID,
-                f"**Error**\nThere was a error while user starting your bot.\
+                f"**Error**\nThere was an error while user starting your bot.\
                 \n`{str(e)}`",
             )
     else:
